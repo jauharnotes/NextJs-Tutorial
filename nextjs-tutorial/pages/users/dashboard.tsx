@@ -1,8 +1,8 @@
-export default function Dasboard() {
+export default function Dashboard() {
     return (
         <div>
             <p>
-                Dasboard Page
+                Dashboard Page
             </p>
         </div>
     )

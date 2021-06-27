@@ -1,0 +1,10 @@
+.navbar {
+    height: 50px;
+    color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
