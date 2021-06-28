@@ -6,9 +6,9 @@ export default function Header() {
         <div className={styles['navbar']}>
             <h1>Jauhar</h1>
             <ul>
-                <li className={styles['text-decoration']}><Link href="/"><a>Home</a></Link></li>
-                <li className={styles['text-decoration']}><Link href="/blog"><a>Blog</a></Link></li>
-                <li className={styles['text-decoration']}><Link href="/users/dashboard"><a>Dasboard</a></Link></li>
+                <li className={styles['nav_space']}><Link href="/"><a>Home</a></Link></li>
+                <li className={styles['nav_space']}><Link href="/blog"><a>Blog</a></Link></li>
+                <li className={styles['nav_space']}><Link href="/users/dashboard"><a>Dasboard</a></Link></li>
             </ul>
         </div>
     )

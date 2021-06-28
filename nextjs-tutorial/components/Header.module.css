@@ -2,9 +2,15 @@
     height: 50px;
     color: darkcyan;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.text-decoration {
-    text-decoration: none;
+.nav_space {
+    margin-left: 30px;
+    transition: 1s;
+}
+
+.nav_space:hover{
+    color: rgb(1, 53, 53)
 }
