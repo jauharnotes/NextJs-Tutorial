@@ -1,5 +1,5 @@
 import Link from "next/dist/client/link"
-import styles from '../components/Header.module.css';
+import styles from '../components/css/Header.module.css';
 
 export default function Header() {
     return (

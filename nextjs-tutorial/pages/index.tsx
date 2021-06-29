@@ -1,10 +1,9 @@
-import Header from '../components/header';
+import Layout from '../components/layout/layout';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Welcom Jauhar</h1>
-    </div>
+    </Layout>
   )
 }
