@@ -24,3 +24,8 @@ ul {
 #__next {
   height: 100%;
 }
+
+.text404 {
+  color: darkgrey;
+  text-align: center;
+}
