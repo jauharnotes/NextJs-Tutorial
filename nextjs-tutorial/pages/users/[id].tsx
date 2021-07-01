@@ -7,7 +7,8 @@ export default function Dashboard() {
     return (
         <Layout pageTitle='Dashboard page'>
             <p>
-                Dashboard Page {id}
+                Dashboard Page
+                {id}
             </p>
         </Layout>
     )
