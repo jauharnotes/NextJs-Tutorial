@@ -8,7 +8,7 @@ export default function Header() {
             <ul>
                 <li className={styles['nav_space']}><Link href="/"><a>Home</a></Link></li>
                 <li className={styles['nav_space']}><Link href="/blog"><a>Blog</a></Link></li>
-                <li className={styles['nav_space']}><Link href="/users/dashboard"><a>Dasboard</a></Link></li>
+                <li className={styles['nav_space']}><Link href="/users/dashboard"><a>Dashboard</a></Link></li>
             </ul>
         </div>
     )
