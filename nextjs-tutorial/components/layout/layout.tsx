@@ -1,8 +1,8 @@
-import Header from "../header"
-import Footer from "../footer"
+import Header from "../header";
+import Footer from "../footer";
 import { ReactNode } from "react";
-import styles from '../layout/Layout.module.css';
-import Head from 'next/head';
+import styles from "../layout/Layout.module.css";
+import Head from "next/head";
 
 interface LayoutProps {
     children: ReactNode;
@@ -23,5 +23,5 @@ export default function Layout(props: LayoutProps) {
                 <Footer />
             </div>
         </>
-    )
+    );
 }
